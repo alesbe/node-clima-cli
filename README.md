@@ -1,25 +1,24 @@
-# Aplicación del clima con Openweathermap y Geocode
-Esta aplicación ha sido creada en el transcurso de mi aprendizaje en el curso de NodeJS.
+# Weather app made with Openweathermap and Geocode
 
-Es un programa de linea de comandos hecho en NodeJS usando las APIs [OpenWeatherMap](https://openweathermap.org/) y [Geocode](https://geocode.xyz/).
+A weather app with a CLI interface made with [OpenWeatherMap](https://openweathermap.org/) and [Geocode](https://geocode.xyz/).
 
-![Aplicación](https://i.imgur.com/uzSghmn.png)
+![App](https://i.imgur.com/uzSghmn.png)
 
-## Instalación
-Para instalar las dependencias ejecutar este comando dentro de la carpeta del proyecto.
+## Install
+Install dependencies in project folder:
 
 ```
 npm install
 ```
 
-## Uso
+## Usage
 
 ### -direccion
 
-Indica la dirección del lugar para consultar el clima.
+Specifie place/city to check the weather
 
 ```
 node app -d [lugar]
 ```
 
-*Las ciudades formadas por mas de una palabra como New York, se deberán escribir entre comillas, por ejemplo, "New york".*
+*Cities with compound names like New York, should be written with commas, like "New York".*
